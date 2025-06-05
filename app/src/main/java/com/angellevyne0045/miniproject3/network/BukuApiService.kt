@@ -28,4 +28,5 @@ object BukuApi {
     val service: BukuApiService by lazy {
         retrofit.create(BukuApiService::class.java)
     }
+    enum class ApiStatus { LOADING, SUCCESS}
 }
