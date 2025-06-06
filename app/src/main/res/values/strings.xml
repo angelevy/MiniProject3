@@ -7,4 +7,8 @@
     <string name="tutup">Tutup</string>
     <string name="logout">Logout</string>
     <string name="tambah_buku">Tambah Buku</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="batal">Batal</string>
+    <string name="simpan">Simpan</string>
 </resources>
