@@ -26,7 +26,7 @@ class MainViewModel : ViewModel() {
         viewModelScope.launch(Dispatchers.IO) {
             status.value = BukuApi.ApiStatus.LOADING
             try {
-                data.value = BukuApi.service.getBuku()
+                data.value = BukuApi.service.getBuku("user@gmail.com")
                 status.value = BukuApi.ApiStatus.SUCCESS
             } catch (e: Exception) {
                 Log.d("MainViewModel", "Failure: ${e.message}")
