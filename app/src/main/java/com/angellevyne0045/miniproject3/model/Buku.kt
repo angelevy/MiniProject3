@@ -4,7 +4,7 @@ data class Buku(
     val id: String,
     val title: String,
     val author: String,
-    val coverUrl: String,
-    val email: String
-)
+    val image: String,
+    val mine: Boolean
+    )
 

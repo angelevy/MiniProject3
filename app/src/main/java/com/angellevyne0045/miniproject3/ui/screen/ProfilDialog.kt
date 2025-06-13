@@ -51,7 +51,7 @@ fun ProfilDialog(
             ) {
                 AsyncImage(
                     model = ImageRequest.Builder(LocalContext.current)
-                        .data(user.coverUrl)
+                        .data(user.imageUrl)
                         .crossfade(true)
                         .build(),
                     contentDescription = null,
@@ -61,7 +61,7 @@ fun ProfilDialog(
                     modifier = Modifier.size(100.dp).clip(CircleShape)
                 )
                 Text(
-                    text = user.title,
+                    text = user.name,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
                     fontWeight = FontWeight.Bold,

@@ -1,6 +1,7 @@
 package com.angellevyne0045.miniproject3.model
 
 data class OpStatus(
-    var status: String,
-    var message: String?
+    val status: String,
+    val message: String?,
+    val data: Any?
 )

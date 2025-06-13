@@ -11,4 +11,18 @@
     <string name="author">Author</string>
     <string name="batal">Batal</string>
     <string name="simpan">Simpan</string>
+    <string name="ubah">Ubah</string>
+    <string name="pesan_hapus">Hapus Buku ini?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="ganti_image">Ganti Image</string>
+    <string name="tambah_image">Tambah Image</string>
+    <string name="pesan_hapus_body">Apakah Anda yakin ingin menghapus %1$s?</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="edit">Edit</string>
+    <string name="konfirmasi_hapus">Konfirmasi Hapus</string>
+    <string name="dialog_hapus">Apakah Anda yakin ingin menghapus buku ini?</string>
+    <string name="pilih_gambar">Pilih Buku</string>
+    <string name="pilih_sumber_gambar">Pilih sumber gambar</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
 </resources>
